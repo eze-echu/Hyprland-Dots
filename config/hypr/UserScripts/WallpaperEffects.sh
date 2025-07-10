@@ -108,7 +108,8 @@ main
 sleep 1
 
 if [[ -n "$choice" ]]; then
-  sddm_simple="/usr/share/sddm/themes/simple_sddm_2"
+  sddm_simple="/usr/share/sddm/themes/Orchis_mod/"
+  #sddm_simple="/usr/share/sddm/themes/simple_sddm_2"
   if [ -d "$sddm_simple" ]; then
   
 	# Check if yad is running to avoid multiple yad notification
